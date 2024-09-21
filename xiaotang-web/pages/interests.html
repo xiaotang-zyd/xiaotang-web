@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小糖的兴趣爱好 - 小糖的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+            flex-grow: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+        .popular-links {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .popular-links a {
+            margin: 0 15px;
+            transition: transform 0.3s ease;
+        }
+        .popular-links a:hover {
+            transform: scale(1.2);
+        }
+        .popular-links img {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到小糖的个人空间</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="interests.html">兴趣爱好</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>小糖的兴趣爱好</h2>
+        
+        <section id="hobbies">
+            <h3>爱好列表</h3>
+            <ul>
+                <li>阅读</li>
+                <li>旅行</li>
+                <li>摄影</li>
+                <li>编程</li>
+            </ul>
+        </section>
+        
+        <section id="portfolio">
+            <h3>个人作品</h3>
+            <ul>
+                <li>个人博客网站</li>
+                <li>摄影作品集</li>
+                <li>开源项目贡献</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 小糖的个人网页. 保留所有权利。</p>
+        <div class="popular-links">
+            <a href="https://www.baidu.com" target="_blank"><img src="https://www.baidu.com/favicon.ico" alt="百度"></a>
+            <a href="https://www.bilibili.com" target="_blank"><img src="https://www.bilibili.com/favicon.ico" alt="哔哩哔哩"></a>
+            <a href="https://www.zhihu.com" target="_blank"><img src="https://static.zhihu.com/heifetz/favicon.ico" alt="知乎"></a>
+            <a href="https://www.weibo.com" target="_blank"><img src="https://weibo.com/favicon.ico" alt="微博"></a>
+            <a href="https://www.douyin.com" target="_blank"><img src="https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico" alt="抖音"></a>
+        </div>
+    </footer>
+</body>
+</html>
